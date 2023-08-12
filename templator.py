@@ -22,5 +22,5 @@ def render(template_name, **kwargs):
 if __name__ == '__main__':
     # Пример использования
     output_test = render('authors.html',
-                         object_list=[{'name': 'Leo'}, {'name': 'Kate'}])
+                         object_list=[{'name': 'Alice'}, {'name': 'Kate'}])
     print(output_test)
